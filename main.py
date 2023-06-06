@@ -43,8 +43,12 @@ def main():
       os.system("cls")
     else:
       os.system("clear")
-    print("ROCK PAPER SCISSORS\n\nCURRENT RECORD:\nW = {}\nL = {}\n\nr = rock\np = paper\ns = scissors\n".format(wins, losses))
+    print("ROCK PAPER SCISSORS\n\nCURRENT RECORD:\nW = {}\nL = {}\n\nr = rock\np = paper\ns = scissors\nx = Exit Program\n".format(wins, losses))
     in_var = input("Enter a character: ")
+    if in_var == "x":
+      print("\nExiting program.\n")
+      sleep(2)
+      break
     if in_var != "r" and in_var != "p" and in_var != "s":
       print("\nInvalid selection.\n")
       sleep(2)
