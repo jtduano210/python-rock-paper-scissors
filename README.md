@@ -8,4 +8,4 @@ Simple console Rock-Paper-Scissors game with counter.
 
 -2-player functionality
 
--proper
+-some sort of GUI
